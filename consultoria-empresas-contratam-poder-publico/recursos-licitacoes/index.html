@@ -9,14 +9,23 @@
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="author" content="Dantas Fonseca Advocacia">
 
-  <link rel="canonical" href="https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-impugnacoes-licitacoes/">
+  <link rel="canonical" href="https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-licitacoes/">
+  <link rel="icon" href="/assets/images/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/images/site.webmanifest">
+  <meta name="theme-color" content="#6e7c65">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/area.css">
 
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Recursos e Impugnações em Licitações">
   <meta property="og:description" content="Atuação jurídica estratégica em pedidos de esclarecimento, impugnações de editais, recursos administrativos e contrarrazões em licitações públicas.">
-  <meta property="og:url" content="https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-impugnacoes-licitacoes/">
+  <meta property="og:url" content="https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-licitacoes/">
   <meta property="og:site_name" content="Dantas Fonseca Advocacia">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -460,42 +469,538 @@
       .df-section { padding: 62px 0; }
     }
   </style>
+
+  <style id="visual-padrao-pagina-pilar">
+    :root {
+      --bg: #f7f4ee;
+      --surface: #ffffff;
+      --soft: #edf0eb;
+      --ink: #17202c;
+      --muted: #68717c;
+      --sage: #6e7c65;
+      --sage-dark: #4f5e49;
+      --gold: #b48a4c;
+      --navy: #101927;
+      --line: #e5e0d7;
+      --shadow: 0 20px 55px rgba(16,25,39,.12);
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    h1, h2, h3,
+    .df-hero h1,
+    .df-section h2,
+    .df-card h3 {
+      font-family: "Libre Baskerville", Georgia, serif;
+      line-height: 1.15;
+    }
+
+    .df-container {
+      width: min(1180px, calc(100% - 40px));
+      margin: auto;
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: rgba(255,255,255,.82);
+      font-size: .88rem;
+    }
+
+    .topbar .container,
+    .site-header .container,
+    .site-footer .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: auto;
+    }
+
+    .topbar .container {
+      min-height: 42px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .topbar-links,
+    .social-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .topbar a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255,255,255,.97);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-row {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand img {
+      display: block;
+      width: 190px;
+      height: auto;
+    }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .site-nav > a {
+      color: var(--navy);
+      text-decoration: none;
+      font-size: .94rem;
+      font-weight: 700;
+    }
+
+    .site-nav .button {
+      min-height: 47px;
+      display: inline-flex;
+      align-items: center;
+      padding: 11px 19px;
+      border-radius: 8px;
+      background: var(--gold);
+      color: #fff;
+    }
+
+    .menu-toggle {
+      display: none;
+      min-height: 44px;
+      padding: 9px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--navy);
+      font: inherit;
+      font-weight: 800;
+    }
+
+    .df-breadcrumb {
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .df-breadcrumb ol {
+      padding: 13px 0;
+    }
+
+    .df-breadcrumb a,
+    .df-breadcrumb li {
+      color: var(--muted);
+    }
+
+    .df-hero {
+      padding: 76px 0 92px;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 86% 18%, rgba(180,138,76,.18), transparent 28%),
+        linear-gradient(135deg, #f8f6f1 0%, #e8ede7 100%);
+    }
+
+    .df-hero-grid {
+      grid-template-columns: 1.12fr .88fr;
+      gap: 56px;
+    }
+
+    .df-eyebrow {
+      color: var(--sage-dark);
+      font-size: .78rem;
+      letter-spacing: .15em;
+    }
+
+    .df-hero h1 {
+      color: var(--navy);
+      font-size: clamp(2.25rem,4.8vw,4.55rem);
+      letter-spacing: -.035em;
+    }
+
+    .df-hero p {
+      color: #53615a;
+      font-size: clamp(1.05rem,2vw,1.28rem);
+    }
+
+    .df-btn {
+      min-height: 49px;
+      padding: 13px 21px;
+      border-radius: 8px;
+      font-weight: 800;
+    }
+
+    .df-btn-primary {
+      background: var(--gold);
+      color: #fff;
+    }
+
+    .df-btn-primary:hover {
+      background: #8a6634;
+    }
+
+    .df-btn-secondary {
+      border-color: var(--sage);
+      color: var(--sage-dark);
+      background: transparent;
+    }
+
+    .df-hero-card {
+      padding: 34px;
+      border: 0;
+      border-radius: 24px;
+      background: #14231c;
+      color: #fff;
+      box-shadow: var(--shadow);
+      backdrop-filter: none;
+    }
+
+    .df-hero-card .df-eyebrow,
+    .df-hero-card h2,
+    .df-hero-card li {
+      color: #fff;
+    }
+
+    .df-checklist li {
+      border-bottom: 0;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+
+    .df-checklist li::before {
+      color: #e3c17e;
+    }
+
+    .df-section {
+      padding: 92px 0;
+    }
+
+    .df-section-alt {
+      background: var(--soft);
+    }
+
+    .df-section-dark {
+      background: #14231c;
+    }
+
+    .df-section h2 {
+      color: var(--navy);
+      font-size: clamp(2rem,4vw,3.45rem);
+      letter-spacing: -.03em;
+    }
+
+    .df-section-header {
+      max-width: 820px;
+      margin-bottom: 46px;
+    }
+
+    .df-lead,
+    .df-card p,
+    .df-source {
+      color: var(--muted);
+    }
+
+    .df-card {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(16,25,39,.06);
+    }
+
+    .df-card h3 {
+      color: var(--navy);
+      margin-bottom: 12px;
+    }
+
+    .df-number {
+      width: 46px;
+      height: 46px;
+      margin-bottom: 20px;
+      background: var(--soft);
+      color: var(--sage-dark);
+    }
+
+    .df-note {
+      border-left: 4px solid var(--sage);
+      padding: 22px 26px;
+      background: #fff;
+      border-radius: 0 16px 16px 0;
+      box-shadow: 0 8px 24px rgba(16,25,39,.05);
+    }
+
+    .df-note strong {
+      color: var(--navy);
+    }
+
+    .df-table-wrap {
+      border-color: var(--line);
+      border-radius: 18px;
+    }
+
+    .df-table th {
+      background: var(--sage-dark);
+    }
+
+    .df-table td {
+      border-color: var(--line);
+    }
+
+    .df-table td:first-child,
+    .df-source a {
+      color: var(--sage-dark);
+    }
+
+    .df-flow-step {
+      border-color: rgba(255,255,255,.14);
+      border-radius: 18px;
+      background: rgba(255,255,255,.055);
+      color: #fff;
+    }
+
+    .df-flow-step:not(:last-child)::after {
+      color: #d6be94;
+    }
+
+    .df-section-dark .df-card {
+      border-color: rgba(255,255,255,.14);
+      background: rgba(255,255,255,.055);
+      box-shadow: none;
+    }
+
+    .df-section-dark .df-card h3,
+    .df-section-dark .df-card p {
+      color: #fff;
+    }
+
+    details.df-card {
+      padding: 0;
+      overflow: hidden;
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    details.df-card summary {
+      padding: 21px;
+      cursor: pointer;
+      color: var(--navy);
+      list-style: none;
+    }
+
+    details.df-card summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.df-card p {
+      padding: 0 21px 21px;
+    }
+
+    .site-footer {
+      padding: 42px 0 24px;
+      background: var(--navy);
+      color: rgba(255,255,255,.78);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr .8fr;
+      gap: 36px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+
+    .footer-logo img {
+      width: 190px;
+    }
+
+    .footer-grid p {
+      max-width: 420px;
+      margin-top: 16px;
+      color: rgba(255,255,255,.68);
+    }
+
+    .site-footer h3 {
+      margin-bottom: 12px;
+      color: #fff;
+      font-size: 15px;
+    }
+
+    .site-footer a {
+      color: rgba(255,255,255,.78);
+      text-decoration: none;
+    }
+
+    .footer-links {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .copyright {
+      margin-top: 24px;
+      color: rgba(255,255,255,.56);
+      font-size: 13px;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 60;
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 18px;
+      border-radius: 999px;
+      background: #1f6f56;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 12px 30px rgba(31,111,86,.32);
+    }
+
+    @media (max-width: 980px) {
+      .menu-toggle {
+        display: inline-flex;
+      }
+
+      .site-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 20px;
+        right: 20px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 12px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: #fff;
+        box-shadow: var(--shadow);
+      }
+
+      .site-nav.is-open {
+        display: flex;
+      }
+
+      .site-nav > a {
+        padding: 12px;
+      }
+
+      .df-hero-grid,
+      .df-grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .df-grid-3,
+      .df-grid-4 {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+      }
+    }
+
+    @media (max-width: 650px) {
+      .topbar .container {
+        min-height: auto;
+        padding: 9px 0;
+        align-items: flex-start;
+      }
+
+      .topbar-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+      }
+
+      .social-links {
+        display: none;
+      }
+
+      .topbar .container,
+      .site-header .container,
+      .site-footer .container,
+      .df-container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .brand img {
+        width: 160px;
+      }
+
+      .df-section {
+        padding: 70px 0;
+      }
+
+      .df-grid-3,
+      .df-grid-4,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .df-actions .df-btn {
+        width: 100%;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
-  <div class="df-topbar">
-    <div class="df-container df-topbar-inner">
-      <span>Atendimento em Brasília, com representação em São Paulo</span>
-      <span>
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-links">
         <a href="mailto:dantasfonseca.adv@gmail.com">dantasfonseca.adv@gmail.com</a>
-        &nbsp;|&nbsp;
-        <a href="tel:+5561986516438">(61) 98651-6438</a>
-      </span>
+        <span>Brasília, DF | Representação em São Paulo</span>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/company/dantas-fonseca-advocacia/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/dantasfonseca.adv" target="_blank" rel="noopener">Instagram</a>
+      </div>
     </div>
   </div>
 
-  <header class="df-header">
-    <div class="df-container df-header-inner">
-      <a class="df-brand" href="/">
-        Dantas Fonseca
-        <span>Advocacia</span>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="/index.html">
+        <img src="/assets/images/dantas-fonseca-marca-vetor-02-1-1.png" alt="Dantas Fonseca Advocacia">
       </a>
 
-      <nav class="df-nav" aria-label="Navegação principal">
-        <a href="/">Início</a>
-        <a href="/#sobre">O Escritório</a>
-        <a href="/areas-de-atuacao/">Áreas de atuação</a>
-        <a href="/consultoria-empresas-contratam-poder-publico/">Empresas e Poder Público</a>
-        <a href="/#contato">Contato</a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="menu" aria-label="Navegação principal">
+        <a href="#instrumentos">Instrumentos</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#prazos">Prazos</a>
+        <a href="#faq">Perguntas frequentes</a>
+        <a class="button" href="https://wa.me/5561986516438?text=Ol%C3%A1.%20Vim%20pela%20p%C3%A1gina%20de%20Recursos%20em%20Licita%C3%A7%C3%B5es%20e%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise." target="_blank" rel="noopener">
+          Falar com a equipe
+        </a>
       </nav>
-
-      <a class="df-btn df-btn-primary" href="https://wa.me/5561986516438?text=Ol%C3%A1.%20Vim%20pela%20p%C3%A1gina%20de%20Recursos%20e%20Impugna%C3%A7%C3%B5es%20em%20Licita%C3%A7%C3%B5es%20e%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise." target="_blank" rel="noopener">
-        Falar com a equipe
-      </a>
     </div>
   </header>
 
-  <nav class="df-breadcrumb" aria-label="Breadcrumb">
+<nav class="df-breadcrumb" aria-label="Breadcrumb">
     <div class="df-container">
       <ol>
         <li><a href="/">Início</a></li>
@@ -1279,41 +1784,46 @@
     </section>
   </main>
 
-  <footer style="background:#081526;color:#fff;padding:54px 0 24px">
-    <div class="df-container">
-      <div class="df-grid-3">
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
         <div>
-          <h2 style="font-family:Georgia,serif;margin-top:0">Dantas Fonseca Advocacia</h2>
-          <p style="color:rgba(255,255,255,.72)">
-            Atuação jurídica estratégica em Direito Administrativo, contratações públicas,
-            órgãos de controle, compliance e integridade.
+          <div class="footer-logo">
+            <img src="/assets/images/dantas-fonseca-marca-vetor-02-1-1.png" alt="Dantas Fonseca Advocacia">
+          </div>
+          <p>
+            Advocacia especializada em Direito Administrativo, licitações, contratos públicos,
+            compliance e órgãos de controle.
           </p>
         </div>
+
+        <div>
+          <h3>Navegue</h3>
+          <ul class="footer-links">
+            <li><a href="#instrumentos">Instrumentos</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#prazos">Prazos</a></li>
+            <li><a href="#faq">Perguntas frequentes</a></li>
+          </ul>
+        </div>
+
         <div>
           <h3>Contato</h3>
-          <p>
-            <a href="tel:+5561986516438">(61) 98651-6438</a><br>
-            <a href="mailto:dantasfonseca.adv@gmail.com">dantasfonseca.adv@gmail.com</a>
-          </p>
-        </div>
-        <div>
-          <h3>Endereço</h3>
-          <p>
-            Centro Empresarial Brasília<br>
-            SRTVS Quadra 701, Conjunto D, Lote 5<br>
-            Salas 605 e 607, Brasília, DF
-          </p>
+          <ul class="footer-links">
+            <li><a href="mailto:dantasfonseca.adv@gmail.com">E-mail</a></li>
+            <li><a class="whatsapp-float" href="https://wa.me/5561986516438?text=Ol%C3%A1.%20Vim%20pela%20p%C3%A1gina%20de%20Recursos%20em%20Licita%C3%A7%C3%B5es%20e%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise." target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://www.linkedin.com/company/dantas-fonseca-advocacia/" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
         </div>
       </div>
 
-      <hr style="border:0;border-top:1px solid rgba(255,255,255,.14);margin:34px 0 20px">
-
-      <p style="font-size:.86rem;color:rgba(255,255,255,.62)">
-        Conteúdo informativo. A análise jurídica depende das circunstâncias e dos documentos de
-        cada caso. Não há promessa ou garantia de resultado.
+      <p class="copyright">
+        Copyright © Dantas Fonseca Advocacia. Conteúdo informativo, sem promessa de resultado.
       </p>
     </div>
   </footer>
+
 
   <a href="https://wa.me/5561986516438?text=Ol%C3%A1.%20Vim%20pela%20p%C3%A1gina%20de%20Recursos%20e%20Impugna%C3%A7%C3%B5es%20em%20Licita%C3%A7%C3%B5es%20e%20gostaria%20de%20solicitar%20uma%20an%C3%A1lise."
      target="_blank"
@@ -1354,8 +1864,8 @@
       },
       {
         "@type": ["WebPage", "LegalService"],
-        "@id": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-impugnacoes-licitacoes/#webpage",
-        "url": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-impugnacoes-licitacoes/",
+        "@id": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-licitacoes/#webpage",
+        "url": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-licitacoes/",
         "name": "Impugnações, Pedidos de Esclarecimento e Recursos em Licitações",
         "description": "Assessoria jurídica em impugnação de edital, pedidos de esclarecimento, recursos administrativos, contrarrazões, inabilitação e desclassificação em licitações.",
         "isPartOf": {
@@ -1379,7 +1889,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-impugnacoes-licitacoes/#breadcrumb",
+        "@id": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-licitacoes/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -1397,13 +1907,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Recursos e Impugnações em Licitações",
-            "item": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-impugnacoes-licitacoes/"
+            "item": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-licitacoes/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-impugnacoes-licitacoes/#faq",
+        "@id": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/recursos-licitacoes/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -1458,5 +1968,35 @@
     ]
   }
   </script>
+
+  <script>
+    const b = document.getElementById("menu-toggle");
+    const m = document.getElementById("menu");
+
+    if (b && m) {
+      b.addEventListener("click", () => {
+        const open = m.classList.toggle("is-open");
+        b.setAttribute("aria-expanded", String(open));
+      });
+
+      m.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+          m.classList.remove("is-open");
+          b.setAttribute("aria-expanded", "false");
+        });
+      });
+    }
+
+    document.querySelectorAll("details.df-card").forEach(item => {
+      item.addEventListener("toggle", () => {
+        if (item.open) {
+          document.querySelectorAll("details.df-card").forEach(other => {
+            if (other !== item) other.removeAttribute("open");
+          });
+        }
+      });
+    });
+  </script>
+
 </body>
 </html>
