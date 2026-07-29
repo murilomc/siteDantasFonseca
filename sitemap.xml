@@ -1,216 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://dantasfonseca.adv.br/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/defesa-tcu/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/defesa-tcu/tomada-de-contas-especial/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/defesa-tcu/responsabilizacao-gestores/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/defesa-tcu/sustentacao-oral-tcu/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/defesa-tcu/recursos-no-tcu/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/compliance-anticorrupcao/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/compliance-anticorrupcao/processo-administrativo-responsabilizacao/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/compliance-anticorrupcao/lei-anticorrupcao/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/compliance-anticorrupcao/acordo-de-leniencia/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/compliance-anticorrupcao/defesa-cgu/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/licitacoes-contratos/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/licitacoes-contratos/sancoes-administrativas/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/licitacoes-contratos/declaracao-inidoneidade/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/licitacoes-contratos/suspensao-de-licitar/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/licitacoes-contratos/reequilibrio-economico-financeiro/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/concessoes-regulacao/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/concessoes-regulacao/transporte-publico/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/concessoes-regulacao/rodovias/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/concessoes-regulacao/aeroportos/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/areas-de-atuacao/concessoes-regulacao/agencias-reguladoras/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/artigos/marco-legal-transporte-publico/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/mapa-do-site/</loc>
     <lastmod>2026-07-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/artigos/programa-integridade-nova-lei-licitacoes/</loc>
     <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/artigos/regulacao-responsiva-prevencao-lavagem-dinheiro-bets/</loc>
     <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/</loc>
     <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/programa-integridade-empresas-licitantes/</loc>
     <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
-  <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/reequilibrio-economico-financeiro/</loc>
-  <lastmod>2026-07-27</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
-</url>
+    <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/reequilibrio-economico-financeiro/</loc>
+    <lastmod>2026-07-27</lastmod>
+  </url>
 
   <url>
     <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/sancoes-administrativas/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-</url>
+    <lastmod>2026-07-29</lastmod>
+  </url>
 
 </urlset>
