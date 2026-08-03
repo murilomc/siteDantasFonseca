@@ -3,37 +3,109 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mapa do Site | Dantas Fonseca Advocacia</title>
-  <meta name="description" content="Consulte todas as áreas de atuação, serviços e artigos do Dantas Fonseca Advocacia organizados por tema." />
+  <title>Mapa do Site | Áreas e Serviços | Dantas Fonseca</title>
+  <meta name="description" content="Consulte os clusters, áreas de atuação, serviços para empresas, defesa no TCU, compliance, regulação, licitações e artigos do Dantas Fonseca." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://dantasfonseca.adv.br/mapa-do-site/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="Dantas Fonseca Advocacia" />
-  <meta property="og:title" content="Mapa do Site | Dantas Fonseca Advocacia" />
-  <meta property="og:description" content="Áreas de atuação, serviços especializados e artigos jurídicos organizados em uma única página." />
+  <meta property="og:title" content="Mapa do Site | Áreas e Serviços | Dantas Fonseca" />
+  <meta property="og:description" content="Clusters jurídicos, áreas de atuação, serviços especializados e artigos do Dantas Fonseca organizados em uma única página." />
   <meta property="og:url" content="https://dantasfonseca.adv.br/mapa-do-site/" />
   <meta property="og:image" content="https://dantasfonseca.adv.br/assets/images/og-dantasfonseca.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../assets/css/area.css" />
-  <link rel="stylesheet" href="../assets/css/sitemap.css" />
+  <link rel="stylesheet" href="/assets/css/area.css" />
+  <link rel="stylesheet" href="/assets/css/sitemap.css" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "@id": "https://dantasfonseca.adv.br/mapa-do-site/#webpage",
-    "url": "https://dantasfonseca.adv.br/mapa-do-site/",
-    "name": "Mapa do Site | Dantas Fonseca Advocacia",
-    "description": "Áreas de atuação, serviços especializados e artigos jurídicos do Dantas Fonseca Advocacia.",
-    "isPartOf": {
-      "@type": "WebSite",
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dantasfonseca.adv.br/#organization",
       "name": "Dantas Fonseca Advocacia",
-      "url": "https://dantasfonseca.adv.br/"
+      "url": "https://dantasfonseca.adv.br/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dantasfonseca.adv.br/assets/images/dantas-fonseca-marca-vetor-02-1-1.png"
+      }
     },
-    "breadcrumb": {
+    {
+      "@type": "WebSite",
+      "@id": "https://dantasfonseca.adv.br/#website",
+      "url": "https://dantasfonseca.adv.br/",
+      "name": "Dantas Fonseca Advocacia",
+      "publisher": {
+        "@id": "https://dantasfonseca.adv.br/#organization"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://dantasfonseca.adv.br/mapa-do-site/#webpage",
+      "url": "https://dantasfonseca.adv.br/mapa-do-site/",
+      "name": "Mapa do Site | Áreas e Serviços | Dantas Fonseca",
+      "description": "Clusters jurídicos, áreas de atuação, serviços especializados e artigos do Dantas Fonseca Advocacia.",
+      "isPartOf": {
+        "@id": "https://dantasfonseca.adv.br/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://dantasfonseca.adv.br/mapa-do-site/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://dantasfonseca.adv.br/mapa-do-site/#clusters"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://dantasfonseca.adv.br/mapa-do-site/#clusters",
+      "name": "Principais clusters jurídicos",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Empresas que Contratam com o Poder Público",
+          "url": "https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Defesa no TCU e Órgãos de Controle",
+          "url": "https://dantasfonseca.adv.br/advogado-defesa-tcu-orgaos-controle/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Compliance e Integridade para Empresas",
+          "url": "https://dantasfonseca.adv.br/advogado-compliance-empresas/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Empresas em Setores Regulados",
+          "url": "https://dantasfonseca.adv.br/advogado-empresas-setores-regulados/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Áreas de Atuação",
+          "url": "https://dantasfonseca.adv.br/areas-de-atuacao/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Artigos",
+          "url": "https://dantasfonseca.adv.br/artigos/"
+        }
+      ]
+    },
+    {
       "@type": "BreadcrumbList",
+      "@id": "https://dantasfonseca.adv.br/mapa-do-site/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -49,7 +121,8 @@
         }
       ]
     }
-  }
+  ]
+}
   </script>
 </head>
 <body>
@@ -68,15 +141,15 @@
 
   <header class="site-header">
     <div class="container nav-row">
-      <a class="brand" href="../index.html">
-        <img src="../assets/images/dantas-fonseca-marca-vetor-02-1-1.png" alt="Dantas Fonseca Advocacia" />
+      <a class="brand" href="/">
+        <img src="/assets/images/dantas-fonseca-marca-vetor-02-1-1.png" alt="Dantas Fonseca Advocacia" />
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
       <nav class="site-nav" id="menu" aria-label="Menu principal">
-        <a href="../index.html">Início</a>
-        <a href="../areas-de-atuacao/">Áreas de atuação</a>
-        <a href="../index.html#equipe">Equipe</a>
-        <a href="../index.html#contato">Contato</a>
+        <a href="/">Início</a>
+        <a href="/areas-de-atuacao/">Áreas de atuação</a>
+        <a href="/#equipe">Equipe</a>
+        <a href="/#contato">Contato</a>
       </nav>
     </div>
   </header>
@@ -85,105 +158,144 @@
     <section class="hero">
       <div class="container">
         <ol class="breadcrumb">
-          <li><a href="../index.html">Início</a></li>
+          <li><a href="/">Início</a></li>
           <li aria-current="page">Mapa do Site</li>
         </ol>
         <span class="eyebrow">Navegação completa</span>
         <h1>Mapa do Site</h1>
-        <p class="hero-copy">Consulte toda a estrutura de áreas de atuação, serviços especializados e conteúdo jurídico do Dantas Fonseca Advocacia.</p>
+        <p class="hero-copy">Consulte os clusters jurídicos, áreas de atuação, serviços especializados para empresas e gestores e os conteúdos publicados pelo Dantas Fonseca Advocacia.</p>
       </div>
     </section>
 
     <section>
       <div class="container page-layout">
         <article class="content">
-          <p class="map-intro">A estrutura foi organizada em quatro pilares de atuação. Cada pilar reúne páginas específicas para facilitar a consulta por tema e conectar serviços jurídicos a conteúdos relacionados.</p>
+          <p class="map-intro">A estrutura atual do site está organizada por clusters jurídicos, áreas institucionais e conteúdos especializados. Cada cluster reúne uma página principal e subpáginas voltadas a situações concretas enfrentadas por empresas e gestores.</p>
 
           <nav class="site-tree" aria-label="Estrutura completa do site">
-            <a class="tree-root" href="../index.html">dantasfonseca.adv.br</a>
+<a class="tree-root" href="/">dantasfonseca.adv.br</a>
 
-            <div class="tree-grid">
-              <section class="tree-branch">
-                <a class="branch-head" href="../areas-de-atuacao/defesa-tcu/">
-                  <small>Pilar 1</small>
-                  <h2>Defesa perante o TCU</h2>
-                </a>
-                <ul class="branch-links">
-                  <li><a href="../areas-de-atuacao/defesa-tcu/tomada-de-contas-especial/">Tomada de contas especial</a></li>
-                  <li><a href="../areas-de-atuacao/defesa-tcu/responsabilizacao-gestores/">Responsabilização de gestores</a></li>
-                  <li><a href="../areas-de-atuacao/defesa-tcu/sustentacao-oral-tcu/">Sustentação oral no TCU</a></li>
-                  <li><a href="../areas-de-atuacao/defesa-tcu/recursos-no-tcu/">Recursos no TCU</a></li>
-                </ul>
-              </section>
+<div class="tree-grid">
 
-              <section class="tree-branch">
-                <a class="branch-head" href="../areas-de-atuacao/compliance-anticorrupcao/">
-                  <small>Pilar 2</small>
-                  <h2>Compliance e Anticorrupção</h2>
-                </a>
-                <ul class="branch-links">
-                  <li><a href="../areas-de-atuacao/compliance-anticorrupcao/processo-administrativo-responsabilizacao/">Processo Administrativo de Responsabilização</a></li>
-                  <li><a href="../areas-de-atuacao/compliance-anticorrupcao/lei-anticorrupcao/">Lei Anticorrupção</a></li>
-                  <li><a href="../areas-de-atuacao/compliance-anticorrupcao/acordo-de-leniencia/">Acordo de leniência</a></li>
-                  <li><a href="../areas-de-atuacao/compliance-anticorrupcao/defesa-cgu/">Defesa perante a CGU</a></li>
-                </ul>
-              </section>
+<section class="tree-branch">
+<a class="branch-head" href="/consultoria-empresas-contratam-poder-publico/">
+<small>Cluster 1</small>
+<h2>Empresas que Contratam com o Poder Público</h2>
+</a>
+<ul class="branch-links">
+<li><a href="/consultoria-empresas-contratam-poder-publico/analise-do-edital/">Análise de edital</a></li>
+<li><a href="/consultoria-empresas-contratam-poder-publico/recursos-licitacoes/">Recursos em licitações</a></li>
+<li><a href="/consultoria-empresas-contratam-poder-publico/contratos-administrativos/">Contratos administrativos</a></li>
+<li><a href="/consultoria-empresas-contratam-poder-publico/reequilibrio-economico-financeiro/">Reequilíbrio econômico financeiro</a></li>
+<li><a href="/consultoria-empresas-contratam-poder-publico/atraso-pagamento-administracao/">Atraso de pagamento da Administração</a></li>
+<li><a href="/consultoria-empresas-contratam-poder-publico/sancoes-administrativas/">Sanções administrativas</a></li>
+<li><a href="/consultoria-empresas-contratam-poder-publico/programa-integridade/">Programa de integridade</a></li>
+<li><a href="/consultoria-empresas-contratam-poder-publico/processo-administrativo-responsabilizacao/">Processo Administrativo de Responsabilização</a></li>
+</ul>
+</section>
 
-              <section class="tree-branch">
-                <a class="branch-head" href="../areas-de-atuacao/licitacoes-contratos/">
-                  <small>Pilar 3</small>
-                  <h2>Licitações e Contratos</h2>
-                </a>
-                <ul class="branch-links">
-                  <li><a href="../areas-de-atuacao/licitacoes-contratos/sancoes-administrativas/">Sanções administrativas</a></li>
-                  <li><a href="../areas-de-atuacao/licitacoes-contratos/declaracao-inidoneidade/">Declaração de inidoneidade</a></li>
-                  <li><a href="../areas-de-atuacao/licitacoes-contratos/suspensao-de-licitar/">Suspensão de licitar</a></li>
-                  <li><a href="../areas-de-atuacao/licitacoes-contratos/reequilibrio-economico-financeiro/">Reequilíbrio econômico-financeiro</a></li>
-                </ul>
-              </section>
+<section class="tree-branch">
+<a class="branch-head" href="/advogado-defesa-tcu-orgaos-controle/">
+<small>Cluster 2</small>
+<h2>Defesa no TCU e Órgãos de Controle</h2>
+</a>
+<ul class="branch-links">
+<li><a href="/advogado-defesa-tcu-orgaos-controle/tomada-de-contas-especial/">Tomada de contas especial</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/defesa-empresa-tcu/">Defesa de empresa no TCU</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/inidoneidade-empresa/">Inidoneidade de empresa</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/citacao-tcu/">Citação no TCU</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/audiencia-tcu/">Audiência no TCU</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/recursos-tcu/">Recursos no TCU</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/medida-cautelar-tcu/">Medida cautelar no TCU</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/defesa-gestor-publico/">Defesa de gestor público</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/inabilitacao-cargo-publico-tcu/">Inabilitação para cargo público</a></li>
+</ul>
+</section>
 
-              <section class="tree-branch">
-                <a class="branch-head" href="../areas-de-atuacao/concessoes-regulacao/">
-                  <small>Pilar 4</small>
-                  <h2>Concessões e Regulação</h2>
-                </a>
-                <ul class="branch-links">
-                  <li><a href="../areas-de-atuacao/concessoes-regulacao/transporte-publico/">Transporte público</a></li>
-                  <li><a href="../areas-de-atuacao/concessoes-regulacao/rodovias/">Rodovias</a></li>
-                  <li><a href="../areas-de-atuacao/concessoes-regulacao/aeroportos/">Aeroportos</a></li>
-                  <li><a href="../areas-de-atuacao/concessoes-regulacao/agencias-reguladoras/">Agências reguladoras</a></li>
-                </ul>
-              </section>
-            </div>
+<section class="tree-branch">
+<a class="branch-head" href="/advogado-compliance-empresas/">
+<small>Cluster 3</small>
+<h2>Compliance e Integridade para Empresas</h2>
+</a>
+<ul class="branch-links">
+<li><a href="/advogado-compliance-empresas/due-diligence-integridade/">Due diligence de integridade</a></li>
+<li><a href="/programa-integridade-empresas-licitantes/">Programa de integridade para empresas licitantes</a></li>
+<li><a href="/artigos/programa-integridade-nova-lei-licitacoes/">Programa de integridade e a nova Lei de Licitações</a></li>
+<li><a href="/areas-de-atuacao/compliance-anticorrupcao/">Compliance e anticorrupção</a></li>
+<li><a href="/areas-de-atuacao/compliance-anticorrupcao/lei-anticorrupcao/">Lei Anticorrupção</a></li>
+<li><a href="/areas-de-atuacao/compliance-anticorrupcao/acordo-de-leniencia/">Acordo de leniência</a></li>
+<li><a href="/areas-de-atuacao/compliance-anticorrupcao/defesa-cgu/">Defesa perante a CGU</a></li>
+</ul>
+</section>
 
-            <section class="articles-tree">
-              <h2>Artigos</h2>
-              <p>Conteúdo jurídico relacionado às áreas de atuação.</p>
-              <a class="article-tree-link" href="../artigos/marco-legal-transporte-publico/">
-                <span>Direito Administrativo</span>
-                Marco Legal do Transporte Público: novas regras da mobilidade
-              </a>
-            </section>
-          </nav>
+<section class="tree-branch">
+<a class="branch-head" href="/advogado-empresas-setores-regulados/">
+<small>Cluster 4</small>
+<h2>Empresas em Setores Regulados</h2>
+</a>
+<ul class="branch-links">
+<li><a href="/advogado-empresas-setores-regulados/autorizacoes-licencas-registros/">Autorizações, licenças e registros</a></li>
+<li><a href="/advogado-empresas-setores-regulados/fiscalizacao-empresas/">Fiscalização de empresas</a></li>
+<li><a href="/advogado-empresas-setores-regulados/auto-infracao-agencia-reguladora/">Auto de infração em agência reguladora</a></li>
+<li><a href="/advogado-empresas-setores-regulados/processo-administrativo-agencia-reguladora/">Processo administrativo em agência reguladora</a></li>
+<li><a href="/advogado-empresas-setores-regulados/recurso-administrativo-agencia-reguladora/">Recurso administrativo em agência reguladora</a></li>
+<li><a href="/advogado-empresas-setores-regulados/multas-sancoes-administrativas/">Multas e sanções administrativas</a></li>
+</ul>
+</section>
+
+<section class="tree-branch">
+<a class="branch-head" href="/areas-de-atuacao/">
+<small>Áreas institucionais</small>
+<h2>Áreas de Atuação</h2>
+</a>
+<ul class="branch-links">
+<li><a href="/areas-de-atuacao/defesa-tcu/">Defesa perante o TCU</a></li>
+<li><a href="/areas-de-atuacao/compliance-anticorrupcao/">Compliance e anticorrupção</a></li>
+<li><a href="/areas-de-atuacao/licitacoes-contratos/">Licitações e contratos</a></li>
+<li><a href="/areas-de-atuacao/concessoes-regulacao/">Concessões e regulação</a></li>
+<li><a href="/areas-de-atuacao/concessoes-regulacao/transporte-publico/">Transporte público</a></li>
+<li><a href="/areas-de-atuacao/concessoes-regulacao/rodovias/">Rodovias</a></li>
+<li><a href="/areas-de-atuacao/concessoes-regulacao/aeroportos/">Aeroportos</a></li>
+<li><a href="/areas-de-atuacao/concessoes-regulacao/agencias-reguladoras/">Agências reguladoras</a></li>
+</ul>
+</section>
+
+<section class="tree-branch">
+<a class="branch-head" href="/artigos/">
+<small>Conteúdo jurídico</small>
+<h2>Artigos e Publicações</h2>
+</a>
+<ul class="branch-links">
+<li><a href="/artigos/marco-legal-transporte-publico/">Marco Legal do Transporte Público</a></li>
+<li><a href="/artigos/programa-integridade-nova-lei-licitacoes/">Programa de Integridade e a Nova Lei de Licitações</a></li>
+<li><a href="/artigos/regulacao-responsiva-prevencao-lavagem-dinheiro-bets/">Regulação responsiva e prevenção à lavagem de dinheiro nas bets</a></li>
+</ul>
+</section>
+
+</div>
+</nav>
 
           <div class="tree-summary" aria-label="Resumo da estrutura">
-            <div class="summary-item"><strong>4</strong><span>páginas pilares</span></div>
-            <div class="summary-item"><strong>16</strong><span>subpáginas especializadas</span></div>
-            <div class="summary-item"><strong>1</strong><span>artigo publicado</span></div>
-          </div>
-        </article>
+<div class="summary-item"><strong>4</strong><span>clusters principais</span></div>
+<div class="summary-item"><strong>30+</strong><span>serviços e subpáginas</span></div>
+<div class="summary-item"><strong>3</strong><span>artigos destacados</span></div>
+</div>
+</article>
 
         <aside class="side-card">
-          <h2>Acesso rápido</h2>
-          <p>Consulte as principais seções institucionais do site.</p>
-          <ul class="side-list">
-            <li><a href="../areas-de-atuacao/">Todas as áreas</a></li>
-            <li><a href="../artigos/marco-legal-transporte-publico/">Artigo publicado</a></li>
-            <li><a href="../index.html#equipe">Equipe</a></li>
-            <li><a href="../index.html#contato">Contato</a></li>
-          </ul>
-          <a class="button" href="https://wa.me/5561986516438" target="_blank" rel="noopener">Falar com a equipe</a>
-        </aside>
+<h2>Acesso rápido</h2>
+<p>Consulte os principais clusters e páginas institucionais do site.</p>
+<ul class="side-list">
+<li><a href="/consultoria-empresas-contratam-poder-publico/">Empresas e Poder Público</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/">Defesa no TCU</a></li>
+<li><a href="/advogado-compliance-empresas/">Compliance empresarial</a></li>
+<li><a href="/advogado-empresas-setores-regulados/">Empresas reguladas</a></li>
+<li><a href="/areas-de-atuacao/">Todas as áreas</a></li>
+<li><a href="/#equipe">Equipe</a></li>
+<li><a href="/#contato">Contato</a></li>
+</ul>
+<a class="button" href="https://wa.me/5561986516438" target="_blank" rel="noopener">Falar com a equipe</a>
+</aside>
       </div>
     </section>
   </main>
@@ -192,20 +304,20 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <div class="footer-logo"><img src="../assets/images/dantas-fonseca-marca-vetor-02-1-1.png" alt="Dantas Fonseca Advocacia" /></div>
+          <div class="footer-logo"><img src="/assets/images/dantas-fonseca-marca-vetor-02-1-1.png" alt="Dantas Fonseca Advocacia" /></div>
           <p>Advocacia especializada com localização estratégica em Brasília e representação em São Paulo.</p>
         </div>
         <div>
-          <h3>Navegue</h3>
-          <ul class="footer-links">
-            <li><a href="../index.html">Início</a></li>
-            <li><a href="../areas-de-atuacao/">Áreas de atuação</a></li>
-            <li><a href="../index.html#equipe">Equipe</a></li>
-            <li><a href="../index.html#contato">Contato</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Redes sociais</h3>
+<h3>Principais clusters</h3>
+<ul class="footer-links">
+<li><a href="/consultoria-empresas-contratam-poder-publico/">Empresas e Poder Público</a></li>
+<li><a href="/advogado-defesa-tcu-orgaos-controle/">Defesa no TCU</a></li>
+<li><a href="/advogado-compliance-empresas/">Compliance empresarial</a></li>
+<li><a href="/advogado-empresas-setores-regulados/">Empresas reguladas</a></li>
+</ul>
+</div>
+<div>
+<h3>Redes sociais</h3>
           <ul class="footer-links">
             <li><a href="https://www.instagram.com/dantasfonseca.adv" target="_blank" rel="noopener">Instagram</a></li>
             <li><a href="https://www.linkedin.com/company/dantas-fonseca-advocacia/" target="_blank" rel="noopener">LinkedIn</a></li>
@@ -218,7 +330,6 @@
   </footer>
 
   <a class="whatsapp-float" href="https://wa.me/5561986516438" target="_blank" rel="noopener">WhatsApp</a>
-  <script src="../assets/js/area.js" defer></script>
+  <script src="/assets/js/area.js" defer></script>
 </body>
 </html>
-
