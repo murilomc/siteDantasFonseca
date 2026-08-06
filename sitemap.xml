@@ -274,4 +274,32 @@
   <loc>https://dantasfonseca.adv.br/advogado-empresas-setores-regulados/autorizacoes-licencas-registros/</loc>
   <lastmod>2026-08-03</lastmod>
 </url>
+  <!-- ADVOGADO PARA EMPRESAS DA AREA DE SAUDE -->
+  <url>
+    <loc>https://dantasfonseca.adv.br/advogado-empresas-area-saude/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+</url>
+
+<url>
+    <loc>https://dantasfonseca.adv.br/advogado-empresas-area-saude/contratacoes-publicas-saude/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+</url>
+
+<url>
+    <loc>https://dantasfonseca.adv.br/advogado-empresas-area-saude/regulacao-sanitaria-anvisa/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+</url>
+
+<url>
+    <loc>https://dantasfonseca.adv.br/advogado-empresas-area-saude/empresas-farmaceuticas/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+</url>
 </urlset>
