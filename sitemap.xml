@@ -132,17 +132,18 @@
     <loc>https://dantasfonseca.adv.br/artigos/regulacao-responsiva-prevencao-lavagem-dinheiro-bets/</loc>
     <lastmod>2026-07-27</lastmod>
   </url>
-
-  <url>
-    <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/</loc>
-    <lastmod>2026-07-27</lastmod>
-  </url>
-
   <url>
     <loc>https://dantasfonseca.adv.br/programa-integridade-empresas-licitantes/</loc>
     <lastmod>2026-07-27</lastmod>
   </url>
 
+      <!-- CONSULTORIA PARA EMPRESAS QUE CONTRATAM COM O PODER PÚBLICO -->
+
+    <url>
+    <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/</loc>
+    <lastmod>2026-07-27</lastmod>
+  </url>
+  
   <url>
     <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/reequilibrio-economico-financeiro/</loc>
     <lastmod>2026-07-27</lastmod>
@@ -152,8 +153,6 @@
     <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/sancoes-administrativas/</loc>
     <lastmod>2026-07-29</lastmod>
   </url>
-
-  <!-- NOVAS PÁGINAS -->
 
   <url>
     <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/analise-do-edital/</loc>
@@ -175,8 +174,6 @@
     <lastmod>2026-07-30</lastmod>
   </url>
 
-    <!-- CONSULTORIA PARA EMPRESAS QUE CONTRATAM COM O PODER PÚBLICO -->
-
   <url>
     <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/contratos-administrativos/</loc>
     <lastmod>2026-07-31</lastmod>
@@ -186,6 +183,21 @@
     <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/processo-administrativo-responsabilizacao/</loc>
     <lastmod>2026-07-31</lastmod>
   </url>
+
+  <url>
+  <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/impedimento-licitar-contratar/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
+
+<url>
+  <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/defesa-multa-contrato-administrativo/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
+
+  <url>
+  <loc>https://dantasfonseca.adv.br/consultoria-empresas-contratam-poder-publico/caducidade-concessao/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
 
   <!-- CLUSTER DEFESA NO TCU E ÓRGÃOS DE CONTROLE -->
 
@@ -243,6 +255,17 @@
   <loc>https://dantasfonseca.adv.br/advogado-defesa-tcu-orgaos-controle/prescricao-tcu/</loc>
   <lastmod>2026-08-08</lastmod>
   </url>
+
+  <url>
+  <loc>https://dantasfonseca.adv.br/advogado-defesa-tcu-orgaos-controle/imputacao-debito-tcu/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
+
+<url>
+  <loc>https://dantasfonseca.adv.br/advogado-defesa-tcu-orgaos-controle/representacao-tcu/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
+
   
   <!-- ADVOGADO PARA EMPRESAS EM SETORES REGULADOS -->
 
@@ -283,6 +306,16 @@
 
   <url>
   <loc>https://dantasfonseca.adv.br/advogado-empresas-setores-regulados/empresas-transporte/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
+
+  <url>
+  <loc>https://dantasfonseca.adv.br/advogado-empresas-setores-regulados/licenca-autorizacao-negada/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url
+
+  <url>
+  <loc>https://dantasfonseca.adv.br/advogado-empresas-setores-regulados/suspensao-cassacao-autorizacao-antt/</loc>
   <lastmod>2026-08-08</lastmod>
 </url>
   
@@ -335,6 +368,22 @@
 
   <url>
   <loc>https://dantasfonseca.adv.br/advogado-empresas-area-saude/medicamentos/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
+
+  
+<url>
+  <loc>https://dantasfonseca.adv.br/advogado-empresas-area-saude/registro-anvisa-indeferido/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
+
+<url>
+  <loc>https://dantasfonseca.adv.br/advogado-empresas-area-saude/auto-infracao-anvisa/</loc>
+  <lastmod>2026-08-08</lastmod>
+</url>
+
+<url>
+  <loc>https://dantasfonseca.adv.br/advogado-empresas-area-saude/interdicao-suspensao-anvisa/</loc>
   <lastmod>2026-08-08</lastmod>
 </url>
 </urlset>
