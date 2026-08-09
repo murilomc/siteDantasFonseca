@@ -860,6 +860,241 @@
       }
     }
 
+
+    /* AJUSTES RESPONSIVOS: problem-grid, timeline e topics */
+    .problem-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .problem {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      min-width: 0;
+      padding: 24px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 18px;
+      background: rgba(255,255,255,.055);
+    }
+
+    .problem strong {
+      display: block;
+      margin: 0;
+      color: #fff;
+      font-size: 1.02rem;
+      line-height: 1.35;
+    }
+
+    .problem span {
+      display: block;
+      margin: 0;
+      color: rgba(255,255,255,.74);
+      line-height: 1.65;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 30px;
+    }
+
+    .stage {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      min-height: 190px;
+      padding: 22px;
+      border: 1px solid var(--lp-line);
+      border-radius: 18px;
+      background: #fff;
+      box-shadow: 0 10px 28px rgba(15,33,55,.06);
+    }
+
+    .stage small {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--lp-sage-dark);
+      font-size: .76rem;
+      font-weight: 800;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+
+    .stage strong {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--lp-navy);
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+
+    .stage p {
+      margin: 0;
+      color: var(--lp-muted);
+      line-height: 1.62;
+    }
+
+    .topics {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .topic {
+      min-width: 0;
+      padding: 24px;
+      border: 1px solid var(--lp-line);
+      border-radius: 18px;
+      background: #fff;
+      box-shadow: 0 10px 28px rgba(15,33,55,.05);
+    }
+
+    .topic h3 {
+      margin: 0 0 10px;
+      color: var(--lp-navy);
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+
+    .topic p {
+      margin: 0;
+      color: var(--lp-muted);
+      line-height: 1.65;
+    }
+
+    @media (max-width: 980px) {
+      .problem-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .timeline {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .topics {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .problem-grid,
+      .timeline,
+      .topics {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      .problem,
+      .stage,
+      .topic {
+        width: 100%;
+        min-height: 0;
+        padding: 20px;
+        border-radius: 16px;
+      }
+
+      .problem strong,
+      .stage strong,
+      .topic h3 {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1rem;
+        line-height: 1.35;
+      }
+
+      .problem span,
+      .stage p,
+      .topic p {
+        display: block;
+        margin: 0;
+        font-size: .96rem;
+        line-height: 1.6;
+      }
+
+      .stage small {
+        display: block;
+        margin-bottom: 8px;
+        font-size: .72rem;
+      }
+    }
+
+
+    /* CORREÇÃO ESPECÍFICA: cards da estratégia de defesa do PAR */
+    .par-defense-section {
+      overflow: visible;
+    }
+
+    .par-defense-section .section-head h2,
+    .par-defense-section .section-head p {
+      color: #ffffff;
+    }
+
+    .par-defense-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .par-defense-card {
+      display: block;
+      min-width: 0;
+      padding: 24px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 18px;
+      background: rgba(255,255,255,.08);
+      box-sizing: border-box;
+    }
+
+    .par-defense-card h3 {
+      display: block;
+      margin: 0 0 10px 0;
+      color: #ffffff !important;
+      font-family: inherit;
+      font-size: 1.06rem;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .par-defense-card p {
+      display: block;
+      margin: 0;
+      color: rgba(255,255,255,.82) !important;
+      font-family: inherit;
+      font-size: .98rem;
+      font-weight: 400;
+      line-height: 1.65;
+    }
+
+    @media (max-width: 780px) {
+      .par-defense-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      .par-defense-card {
+        width: 100%;
+        padding: 20px;
+        border-radius: 16px;
+      }
+
+      .par-defense-card h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+        line-height: 1.35;
+      }
+
+      .par-defense-card p {
+        font-size: .96rem;
+        line-height: 1.6;
+      }
+    }
+
   </style>
 </head>
 
@@ -970,20 +1205,44 @@
   </div>
 </section>
 
-<section class="dark">
+<section class="dark par-defense-section">
   <div class="lp-container">
     <div class="section-head">
       <span class="eyebrow">Estratégia de defesa</span>
       <h2>A responsabilidade objetiva da empresa não elimina a necessidade de provar o ato lesivo e sua relação com a pessoa jurídica</h2>
       <p>Embora a Lei estabeleça responsabilidade objetiva da pessoa jurídica, a Administração ainda precisa demonstrar os fatos, o enquadramento legal, a relação com a empresa e os elementos necessários à aplicação das consequências previstas em lei.</p>
     </div>
-    <div class="problem-grid">
-      <div class="problem"><strong>Fato não comprovado</strong><span>É necessário verificar se as provas sustentam a ocorrência material da conduta imputada.</span></div>
-      <div class="problem"><strong>Enquadramento inadequado</strong><span>Os fatos devem corresponder a uma hipótese legal de ato lesivo.</span></div>
-      <div class="problem"><strong>Ausência de benefício</strong><span>Deve ser analisada a relação entre a conduta individual e eventual interesse ou benefício da empresa.</span></div>
-      <div class="problem"><strong>Atuação de terceiro</strong><span>A participação de intermediários, representantes e parceiros precisa ser individualizada e contextualizada.</span></div>
-      <div class="problem"><strong>Provas frágeis ou contraditórias</strong><span>Documentos, depoimentos, mensagens e registros devem ser confrontados entre si.</span></div>
-      <div class="problem"><strong>Vício processual</strong><span>Competência, motivação, acesso aos autos, contraditório e demais garantias processuais também precisam ser observados.</span></div>
+
+    <div class="par-defense-grid">
+      <article class="par-defense-card">
+        <h3>Fato não comprovado</h3>
+        <p>É necessário verificar se as provas sustentam a ocorrência material da conduta imputada.</p>
+      </article>
+
+      <article class="par-defense-card">
+        <h3>Enquadramento inadequado</h3>
+        <p>Os fatos devem corresponder a uma hipótese legal de ato lesivo.</p>
+      </article>
+
+      <article class="par-defense-card">
+        <h3>Ausência de benefício</h3>
+        <p>Deve ser analisada a relação entre a conduta individual e eventual interesse ou benefício da empresa.</p>
+      </article>
+
+      <article class="par-defense-card">
+        <h3>Atuação de terceiro</h3>
+        <p>A participação de intermediários, representantes e parceiros precisa ser individualizada e contextualizada.</p>
+      </article>
+
+      <article class="par-defense-card">
+        <h3>Provas frágeis ou contraditórias</h3>
+        <p>Documentos, depoimentos, mensagens e registros devem ser confrontados entre si.</p>
+      </article>
+
+      <article class="par-defense-card">
+        <h3>Vício processual</h3>
+        <p>Competência, motivação, acesso aos autos, contraditório e demais garantias processuais também precisam ser observados.</p>
+      </article>
     </div>
   </div>
 </section>
