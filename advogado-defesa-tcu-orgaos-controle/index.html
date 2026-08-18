@@ -59,12 +59,162 @@
 @media(max-width:980px){.lp-hero-grid,.split,.authority{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.audiences{grid-template-columns:repeat(2,1fr)}.trust .lp-container{grid-template-columns:repeat(2,1fr)}.photo{min-height:420px}}
 @media(max-width:650px){.lp-container{width:min(100% - 28px,1180px)}section{padding:70px 0}.cards,.problem-grid,.faq-grid,.timeline,.audiences,.lp-proof{grid-template-columns:1fr}.lp-actions .lp-button{width:100%}.trust .lp-container{grid-template-columns:1fr}.cta-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.photo{min-height:340px}}
 </style>
+
+<style id="header-corrections">
+  .topbar {
+    color: rgba(255,255,255,.88);
+    background: #101927;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 13px;
+  }
+  .topbar .container,
+  .site-header .container {
+    width: min(1180px, calc(100% - 40px));
+    margin-inline: auto;
+  }
+  .topbar .container {
+    min-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .topbar-links,
+  .social-links {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .topbar a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .topbar a:hover { color: #fff; }
+
+  .site-header {
+    position: relative;
+    z-index: 50;
+    background: var(--sage);
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    box-shadow: 0 8px 24px rgba(16,25,39,.06);
+  }
+  .nav-row {
+    min-height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .brand {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+  }
+  .brand img {
+    display: block;
+    width: 190px;
+    max-height: 58px;
+    object-fit: contain;
+  }
+  .site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+  }
+  .site-nav a {
+    color: rgba(255,255,255,.92);
+    text-decoration: none;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .site-nav a:not(.button):hover { color: #fff; opacity: .78; }
+  .site-nav .button {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 17px;
+    color: #fff;
+    background: #b48a4c;
+    border-radius: 8px;
+  }
+  .site-nav .button:hover { background: #8a6634; }
+  .menu-toggle {
+    display: none;
+    min-height: 42px;
+    padding: 8px 15px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,.55);
+    border-radius: 8px;
+    font: 700 14px Inter, Arial, sans-serif;
+    cursor: pointer;
+  }
+
+  @media (max-width: 980px) {
+    .nav-row { position: relative; min-height: 76px; }
+    .brand img { width: 170px; }
+    .menu-toggle { display: inline-flex; align-items: center; }
+    .site-nav {
+      position: absolute;
+      top: calc(100% + 1px);
+      right: 0;
+      left: 0;
+      display: none;
+      align-items: stretch;
+      padding: 16px 20px 20px;
+      background: var(--sage);
+      border-bottom: 1px solid rgba(255,255,255,.1);
+      box-shadow: 0 18px 30px rgba(16,25,39,.12);
+    }
+    .site-nav.is-open { display: grid; gap: 0; }
+    .site-nav a { padding: 12px 4px; border-bottom: 1px solid rgba(255,255,255,.1); }
+    .site-nav .button { margin-top: 12px; border-bottom: 0; }
+  }
+
+  @media (max-width: 650px) {
+    .topbar .container,
+    .site-header .container { width: min(100% - 28px, 1180px); }
+    .topbar .container { min-height: 34px; justify-content: center; }
+    .topbar-links span, .social-links { display: none; }
+    .brand img { width: 150px; }
+  }
+</style>
 </head>
 
 <body>
-<div class="topbar"><div class="container"><div class="topbar-links"><a href="mailto:dantasfonseca.adv@gmail.com">dantasfonseca.adv@gmail.com</a><span>Brasília, DF | Representação em São Paulo</span></div><div class="social-links"><a href="https://www.linkedin.com/company/dantas-fonseca-advocacia/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.instagram.com/dantasfonseca.adv" target="_blank" rel="noopener">Instagram</a></div></div></div>
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-links">
+      <a href="mailto:dantasfonseca.adv@gmail.com">dantasfonseca.adv@gmail.com</a>
+      <span>Brasília, DF | Representação em São Paulo</span>
+    </div>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/company/dantas-fonseca-advocacia/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.instagram.com/dantasfonseca.adv" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</div>
 
-<header class="site-header"><div class="container nav-row"><a class="brand" href="https://dantasfonseca.adv.br/index.html"><img src="Advogado%20para%20Defesa%20no%20TCU%20e%20%C3%93rg%C3%A3os%20de%20Controle%20_%20Dantas%20Fonseca_files/dantas-fonseca-marca-vetor-02-1-1_1148.png" alt="Dantas Fonseca Advocacia"></a><button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button><nav class="site-nav" id="menu"><a href="#servicos">Serviços</a><a href="#processo">Processo no TCU</a><a href="#publicos">Quem atendemos</a><a href="#faq">Perguntas frequentes</a><a class="button" href="https://wa.me/5561986516438?text=Ol%C3%A1%21%20Acessei%20a%20p%C3%A1gina%20sobre%20Defesa%20no%20TCU%20e%20%C3%93rg%C3%A3os%20de%20Controle%20do%20Dantas%20Fonseca%20Advocacia%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20atendimento%20jur%C3%ADdico.%20Poderiam%20me%20orientar%3F" target="_blank" rel="noopener">Falar com a equipe</a></nav></div></header>
+<header class="site-header">
+  <div class="container nav-row">
+    <a class="brand" href="https://dantasfonseca.adv.br/index.html" aria-label="Dantas Fonseca Advocacia">
+      <img src="https://dantasfonseca.adv.br/assets/images/dantas-fonseca-marca-vetor-02-1-1.png" alt="Dantas Fonseca Advocacia">
+    </a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="site-nav" id="menu" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Processo no TCU</a>
+      <a href="#publicos">Quem atendemos</a>
+      <a href="#faq">Perguntas frequentes</a>
+      <a class="button" href="https://wa.me/5561986516438?text=Ol%C3%A1%21%20Acessei%20a%20p%C3%A1gina%20sobre%20Defesa%20no%20TCU%20e%20%C3%93rg%C3%A3os%20de%20Controle%20do%20Dantas%20Fonseca%20Advocacia%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20atendimento%20jur%C3%ADdico.%20Poderiam%20me%20orientar%3F" target="_blank" rel="noopener">Falar com a equipe</a>
+    </nav>
+  </div>
+</header>
 
 <div class="breadcrumb"><div class="lp-container"><a href="https://dantasfonseca.adv.br/">Início</a> › <a href="https://dantasfonseca.adv.br/areas-de-atuacao/">Áreas de atuação</a> › Defesa no TCU e órgãos de controle</div></div>
 
